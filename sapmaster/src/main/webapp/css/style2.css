@@ -1,0 +1,141 @@
+/* Reset body padding and margins */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Make Header Sticky */
+#header_container {
+	height: 60px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+#header {
+	line-height: 50px;
+	margin: 0 auto;
+	width: 940px;
+	text-align: center;
+}
+
+/* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+#container {
+	margin: 0 auto;
+	overflow: auto;
+	width: 100%;
+}
+
+/* Make Footer Sticky */
+#footer_container {
+	bottom: 0;
+	height: 60px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+}
+
+#header_container {
+	height: 75px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+#header {
+	line-height: 30px;
+	margin: 0 auto;
+	width: 940px;
+	text-align: center;
+}
+
+#header a {
+	color: #121212;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: Serif;
+}
+
+#menu {
+	background-color: #3b7687;
+	padding: 8px 0 12px 10px;
+}
+
+#menu a {
+	color: #FCFCFC;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: Serif;
+	text-align: right;
+}
+
+#menu a:hover {
+	color: #D7DCF5;
+}
+
+#sidebar {
+	float: left;
+	width: 194px;
+	padding: 0 0 0 0;
+	margin: 0;
+}
+
+h1 {
+	margin: 0px;
+	color: #869843;
+	font-size: 24px;
+	font-family: Serif;
+	font-weight: normal;
+}
+
+h2 {
+	color: #3b7687;
+	font-size: 15px;
+	margin: 20px 0 5px 0;
+}
+
+#main {
+	margin: 0 0 0 10px;
+	padding: 28px 45px 30px 10;
+	color: #444444;
+	font-family: Serif;
+	font-size: 13px;
+	line-height: 18px;
+	text-align: justify;
+	padding-right: 10px;
+	padding-left: 0px;
+	height: 1000px;
+}
+
+#main a {
+	color: #3b7687;
+	text-decoration: none;
+}
+
+#main a:hover {
+	color: #444444;
+}
+
+#footer {
+	padding: 6px 40px 6px 40px;
+	font-family: Serif;
+	color: #444444;
+	font-size: 11px;
+	text-align: right;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #262626;
+}
+
+#footer a:hover {
+	color: #666666;
+}
+
+.separator {
+	font-size: 11px;
+	color: #FFFFFF;
+}
